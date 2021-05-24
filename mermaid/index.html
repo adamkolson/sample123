@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mermaid's Cat Spa</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<style>
+	
+	body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+	   
+	   h1, h2, h3, h4, h5, #nav-primary {
+	   	font-family: 'Antonio', sans-serif;
+	   }
+	   
+	 
+	   
+	   #header-primary {
+	       background-image: url('https://i.imgur.com/1iqlcQ4.jpg');
+	       background-size: cover;
+	       background-position: center;
+	       height: 100vh;
+	       overflow: hidden;
+	       display: flex;
+	 justify-content: center;
+	 align-items: center;
+	           
+	   }
+	   
+	   .header-primary__inner,  #main-primary, #footer-primary {
+	       padding: 2rem;
+	       
+	   }
+	   
+	   #header-primary {
+	   	text-align: center;
+	   }
+	   
+	   #header-primary h1, header h2 {
+	   	display: inline-block;
+
+	   	background-color: #000;
+	   	color: #fff;
+	   	padding: 1rem;
+	   }
+	   
+	   #header-primary h1 {
+	   	font-size: 3em;
+	   	transform: rotate(-6deg);
+	   }
+	   
+	   #header-primary h2 {
+	   	transform: rotate(6deg);
+	   	font-weight: 200;
+	   }
+	   
+	   #header-primary h2 span {
+	   	font-weight: 700;
+	   	font-style: italic;
+
+	   }
+	   
+	   .header-primary__inner--subtitle span {
+	   	position: relative;
+	   }
+	   
+	   .header-primary__inner--subtitle span:first-child {
+	   	top: 0.15rem;
+	   }
+	   
+	   .header-primary__inner--subtitle span:nth-child(2) {
+	   	top: -0.025rem;
+	   }
+	   
+	   .header-primary__inner--subtitle span:nth-child(3) {
+	   	top: -0.25rem;
+	   }
+	   
+	   .header-primary__inner--subtitle span:nth-child(4) {
+	   	top: .025rem;
+	   }
+	   
+	   #nav-primary {
+
+	   width: 100%;
+	   	position: fixed;
+	   	top: 0;
+	   	background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+
+	
+	   }
+	   
+	   #nav-primary ul {
+	   	list-style-type: none;
+	   	margin: 0;
+	   	padding: 0;
+	   }
+	   
+	   
+	   
+	   #nav-primary a {
+	   	display: block;
+	   	padding: 0.5rem;
+	   	color: #fff;
+	   	text-decoration: none;
+	   	font-size: 2rem;
+	   }
+	   
+	   #nav-primary ul li a {background-color: #000;}
+	   
+	   #nav-primary ul li:hover a {
+	   background-color: #fff;
+	   color: #000;
+	   }
+	  
+	   
+	   
+	   @media only screen and (min-width: 768px) {
+	   
+	   #header-primary {
+	   	margin-top: 116px;
+	   }
+	   
+	   
+	   
+	   #nav-primary {
+	   padding: 1rem;
+	   padding: 2rem;
+	   }
+	   
+	   #nav-primary li {
+	   	float: left;
+	   	margin-right: 2rem;
+	   }
+	   #nav-primary a {
+	
+	   	padding: 0.5rem;
+	   	color: #fff;
+	   	text-decoration: none;
+	   	font-size: 2rem;
+	   }
+
+ 	   
+	   #nav-primary ul li:first-child {
+	   	transform: rotate(-1.5deg);
+	   }
+	   
+	   
+	   #nav-primary ul li:nth-child(2) {
+	   	transform: rotate(2.5deg);
+	   }
+	   
+	   #nav-primary ul li:nth-child(3) {
+	   	transform: rotate(-3deg);
+	   }
+}
+
+	   
+	   
+	   main {
+	   
+	   }
+	   
+	   
+	   
+	   footer {
+	       background-color: blue;
+	   }
+	   
+	   
+	   
+	   .main-primary__intro {}
+	   
+	   .main-primary__intro__photo {
+	   	max-width: 100%;
+	   	width: 25%;
+	   	padding: 2rem 2rem 5rem 2rem;
+	   	background-color: #faf7f8;
+	   -webkit-box-shadow: 5px 5px 20px 10px rgba(54,51,52,0.25);
+box-shadow: 5px 5px 20px 10px rgba(54,51,52,0.25);
+	   		transform: rotate(-3deg);
+	   }
+	   
+	   .main-primary__intro__photo:first-child {
+	   transform: rotate(6deg);
+	   }
+	   
+	   .home-contact__info {
+	   
+	   }
+	   
+	   .home-contact__info ul {
+	   list-style-type: none;
+	   margin: 0;
+	   padding: 0;
+	   }
+	   
+	   .home-contact__info,
+	   .home-contact__map {
+	   float: left;
+	   }
+	   
+	   .home-contact__info {
+	   	
+	   	width: 50%;
+	   }
+	   
+	   .home-contact__info li {
+	   padding: 1rem;
+	   }
+	   
+	   .home-contact__info a {
+	   display: block;
+
+	   }
+	   
+	   .home-contact__map {
+	   	   	width: 50%;
+
+	   }
+	   
+	   
+	   
+	   .clear::after {
+  content: "";
+  clear: both;
+ display: table;
+}
+
+	</style>
+	<script>
+	</script>
+</head>
+<body>
+	<header id="header-primary">
+		<div class="header-primary__inner">
+			<div class="header-primary__inner--headline">
+			<h1 class="animate__animated animate__fadeIn animate__slow">Mermaid's Hangout</h1>
+			</div>
+			<div class="header-primary__inner--subtitle"><!-- / .header-primary__inner--headline -->
+			<h2 class="animate__animated animate__fadeIn animate__slower">Where <span>c</span><span>o</span><span>o</span><span>l</span> cats meet their <span>fur-ever</span> home</h2>
+			</div><!-- / .header-primary__inner--subtitle -->
+		</div><!-- / .header-primary__inner -->
+	</header><!-- / #header-primary -->
+	
+	<nav id="nav-primary">
+		<ul>
+			<li class="animate__animated animate__fadeIn"><a href="#">About</a></li>
+					<li class="animate__animated animate__fadeIn animate__slow"><a href="#">Friends</a></li>
+							<li class="animate__animated animate__fadeIn animate__slower"><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<main id="main-primary">
+	<div class="main-primary__intro">
+	<img src="assets/images/main-primary__intro__photo-1.jpg" class="main-primary__intro__photo">
+	<img src="assets/images/main-primary__intro__photo-2.jpg" class="main-primary__intro__photo">
+	<img src="assets/images/main-primary__intro__photo-3.jpg" class="main-primary__intro__photo">
+	
+		<p>My name is Mermaid and I'm a rescue cat. They keep all the best cats at shelters! PS: I love chicken and turkey. And tuna! TKTK</p>
+		<p>I also like helping my fellow cat and other furry friends find places for their fur-ever home.</p>
+		<p>How fun is that!</p>
+		</div><!-- / .main-primary__intro -->
+		<div id="home-contact">
+		<div class="home-contact__info">
+		<ul>
+		<li><a href="tel:555-1212">555-1212</a></li>
+		<li><a href="mailto:email@example.com">email@example.com</a></li>
+		
+		<li>123 Main Street<br>
+		Brooklyn, NY<br> 11211</li>
+		</ul>
+		</div>
+		<div class="home-contact__map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.186711148612!2d-73.95109808459493!3d40.713906079331686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25959c6132ce9%3A0x8a2f75aace5cd763!2s600%20Metropolitan%20Ave%2C%20Brooklyn%2C%20NY%2011211!5e0!3m2!1sen!2sus!4v1619120885310!5m2!1sen!2sus" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+		</div>
+		<div class="clear"></div>
+		
+		<p>Ut tempor placerat lacus, ultrices rhoncus felis facilisis quis. Pellentesque ullamcorper fringilla mauris. Proin et lectus ligula. Pellentesque sagittis nunc eu volutpat feugiat. Maecenas tempor nibh ornare, elementum massa eu, elementum elit. Vivamus consequat eleifend magna vitae vulputate. Vestibulum tempor pulvinar turpis vel fringilla. Vestibulum lorem odio, rutrum ac lacus ac, imperdiet posuere eros. Nulla condimentum mattis mollis. Aenean sapien quam, facilisis at pulvinar id, ornare quis urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+	</main><!-- / #main-primary -->
+	<footer>
+		PS. I'm a cat! Yeah.
+	</footer>
+</body>
+</html>
